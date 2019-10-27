@@ -1,0 +1,151 @@
+/**
+ * Styling for the Google Search page
+ *
+ */
+/* Slight reset to make the preview have ample padding. */
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  padding: 2%;
+  width: 96%;
+  background-color:#f1f6f6;
+  border:1px solid #cee1e1;
+  margin-bottom:18px;
+}
+.gsc-input input.gsc-input {
+  width:96%;
+}
+.cse .gsc-branding,
+.gsc-branding {
+  display:block;
+}
+table.gsc-branding{
+width:578px;
+margin-top:4px;
+}
+.cse .gsc-control-cse div,
+.gsc-control-cse div {
+  position: normal;
+}
+/* Selector for entire element. */
+.cse .gsc-control-cse,
+.gsc-control-cse {
+margin-left:8px;
+}
+.cse .gsc-control-cse:after,
+.gsc-control-cse:after {
+  content:".";
+  display:block;
+  height:0;
+  clear:both;
+  visibility:hidden;
+}
+.cse .gsc-resultsHeader,
+.gsc-resultsHeader {
+  border:none;
+}
+/* Search button */
+.cse input.gsc-search-button,
+input.gsc-search-button {
+  font-family: inherit;
+  color: #000000;
+  text-shadow: 0 1px 2px #FFFFFF;
+  background-color: #CECECE;
+  border: 1px outset;
+  border-color: #666666;
+  border-radius: 2px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+}
+
+div.gsc-clear-button{
+margin-right:200px;
+}
+
+/* Inactive tab */
+.cse .gsc-tabHeader.gsc-tabhInactive,
+.gsc-tabHeader.gsc-tabhInactive {
+  border-bottom: none;
+  color: #666666;
+  background-color: #e9e9e9;
+  border: 1px solid;
+  border-color: #e9e9e9;
+  border-bottom: none;
+  visibility:hidden;
+}
+/* Active tab */
+.cse .gsc-tabHeader.gsc-tabhActive,
+.gsc-tabHeader.gsc-tabhActive {
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-top: 2px solid;
+  border-color: #e9e9e9;
+  border-top-color: #FF9900;
+  border-bottom: none;
+  visibility:hidden;
+}
+/* This is the tab bar bottom border. */
+.cse .gsc-tabsArea,
+.gsc-tabsArea {
+}
+/* Inner wrapper for a result */
+.cse .gsc-webResult.gsc-result,
+.gsc-webResult.gsc-result {
+  padding: .25em;
+  margin-bottom: 1em;
+  background-color:#C5E0D4;
+}
+
+/* hyperlinks in the results */
+.cse a.gs-title {
+  font-weight:bold;
+}
+
+/* Result hover event styling */
+.cse .gsc-webResult.gsc-result:hover,
+.gsc-webResult.gsc-result:hover {
+
+}
+/*Promotion Settings*/
+/* The entire promo */
+.cse .gs-promotion.gs-result,
+.gs-promotion.gs-result {
+  background-color: #FFFFFF;
+  border: 1px solid;
+  border-color: #336699;
+}
+/* Promotion image */
+.cse .gs-promotion.gs-result .gs-promotion-image,
+.gs-promotion.gs-result .gs-promotion-image {}
+/* Promotion title */
+.cse .gs-promotion.gs-result a.gs-title:link,
+.gs-promotion.gs-result a.gs-title:link {
+  color: #0000CC;
+}
+.cse .gs-promotion.gs-result a.gs-title:visited,
+.gs-promotion.gs-result a.gs-title:visited {
+  color: #0000CC;
+}
+.cse .gs-promotion.gs-result a.gs-title:hover,
+.gs-promotion.gs-result a.gs-title:hover {
+  color: #0000CC;
+}
+.cse .gs-promotion.gs-result a.gs-title:active,
+.gs-promotion.gs-result a.gs-title:active {
+  color: #0000CC;
+}
+/* Promotion snippet */
+.cse .gs-promotion.gs-result .gs-snippet,
+.gs-promotion.gs-result .gs-snippet {
+  color: #000000;
+}
+/* Promotion url */
+.cse .gs-promotion.gs-result ..gs-visibleUrl,
+.gs-promotion.gs-result .gs-visibleUrl {
+  color: #008000;
+}
+div.gs-webResult .gs-visibleUrl-short { 
+display:none; 
+}
+div.gs-webResult .gs-visibleUrl-long {
+display:block; 
+}

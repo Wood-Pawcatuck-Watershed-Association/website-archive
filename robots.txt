@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /functions/
+Disallow: /manage/
+Disallow: /maps/

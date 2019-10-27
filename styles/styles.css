@@ -1,0 +1,1179 @@
+/* CSS Document */
+/* This first group of styles define the basic layout of the pages and standard styles that apply across the board*/
+body {
+margin:0px;
+background-color:#9AB1C1;
+background-image:url("../graphics/topfade.jpg");
+background-position:top;
+background-repeat:repeat-x;
+}
+div.container {
+text-align:center;
+height:100%;
+width:100%;
+margin:auto;
+display:table; 
+}
+div.innercontainer{
+position:relative;
+width:798px;
+margin:auto;
+}
+/* This group of styles defines the header */
+.headerDIV {
+height:116px;
+width:792px;
+margin: 52px 0px 0px 0px;
+text-align:left;
+position:relative;
+z-index:60;
+background-image:url("../graphics/header.jpg");
+background-repeat:repeat-x;
+border:3px solid white;
+border-bottom:none;
+}
+#headerTL {
+position:absolute;
+top:-3px;
+left:-3px;
+}
+#headerTR {
+position:absolute;
+top:-3px;
+right:-3px;
+}
+.headerDIVtext{
+position:absolute;
+top:0;
+width:592px;
+left:104px;
+z-index:40;
+text-align:center;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+.headerTextMain {
+color:#274389;
+font-size:1.35em;
+margin-top:12px;
+margin-bottom:0px;
+}
+.headerTextSub {
+margin-top:0px;
+margin-bottom:0px;
+font-size:0.9em;
+color:#577D87;
+color:#577D87;
+font-weight:normal;
+}
+div#headerPhoto {
+width:792px;
+height:204px;
+border-left:3px solid white;
+border-right:3px solid white;
+}
+/*This group of styles define the basic layout and standard content of the main body of the page */
+.mainDIV {
+padding:0px;
+margin:0px;
+z-index:50;
+width:792px;
+overflow:auto;
+border-left:3px solid white;
+border-right:3px solid white;
+background-color:#E2EDED;
+text-align:left;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+.mainDIV p {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+color:#274389;
+padding:3px 10px 3px 8px;
+margin-top:0;
+}
+.mainDIV h1 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.5em;
+color:#274389;
+color:#762c2c;
+font-weight:normal;
+margin-left:8px;
+}
+.mainDIV h2 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.2em;
+color:#274389;
+color:#762c2c;
+font-weight:normal;
+margin-left:8px;
+margin-bottom:3px;
+}
+.mainDIV h3 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.0em;
+color:#274389;
+color:#762c2c;
+font-weight:bold;
+margin-left:8px;
+}
+.mainDIV h4 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:0.8em;
+color:#762c2c;
+margin-left:8px;
+}
+.mainDIV a {
+color:#274389;
+}
+.mainDIV a:hover {
+color:#274389;
+}
+.mainDIV li{
+margin:4px 17px 4px 0;
+color:#274389;
+font-size:0.9em;
+}
+.mainDIV li.inline{
+margin:0 0 4px 0;
+color:#274389;
+font-size:0.8em;
+font-family:Arial, Helvetica, sans-serif;
+}
+.mainDIV li.intext{
+margin:0;
+color:#274389;
+font-size:0.8em;
+font-family:Arial, Helvetica, sans-serif;
+}
+.mainDIV li a {
+font-weight:bold;
+}
+.mainDIV li a:hover {
+font-weight:bold;
+}
+.mainDIV hr {
+height:1px;
+color:#74a089;
+background-color:#74a089;
+border:0;
+}
+img.bodyImage {
+border:1px solid black;
+margin:3px 8px 3px 8px;
+}
+span.bigIntro {
+font-size:1.4em;
+color:#762c2c;
+font-weight:normal;
+font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.mainDIV p.byline {
+margin-top:0;
+padding-top:0;
+font-style:italic;
+}
+
+/* This group of styles defines the home page elements */
+div.mainDIV#home{
+padding:8px 0 4px 6px;
+width:786px;
+}
+div.mainDIV#home2{
+padding:2px 0 9px 6px;
+width:786px;
+}
+div.homeHeadline {
+background-color:#c5e0d4;
+width:792px;
+margin:0;
+padding:0;
+border-right:3px solid white;
+border-left:3px solid white;
+border-bottom:1px solid white;
+border-top:1px solid #a1d4d3;
+}
+p.homeHeadlineP{
+font-size:0.9em;
+font-family:Georgia, "Times New Roman", Times, serif;
+color:#31664A;
+margin:5px 0 8px 0;
+padding:0 10px 0 10px;
+}
+div.homebox{
+width:250px;
+height:87px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.9em;
+color:#BDC1C1;
+margin:5px;
+* margin:4px;
+float:left;
+overflow:hidden;
+}
+div.homebox img{
+border:1px solid black;
+float:left;
+margin-right:10px;
+display:block;
+}
+div.homebox h1 {
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.4em;
+margin:-2px 0 4px 76px;
+font-weight:normal;
+}
+div.homebox p {
+margin:0;
+color:#BDC1C1;
+}
+div.homebox a.homePageLongText {
+color:#BDC1C1;
+text-decoration:none;
+}
+div.homebox a.homePageLongText:hover {
+color:#31664A;
+text-decoration:none;
+}
+div.homebox a {
+color:#762c2c;
+text-decoration:none;
+}
+div.homebox a.homeBoxMore {
+color:#BDC1C1;
+text-decoration:none;
+}
+div.homebox a.homeBoxMoreOver:hover {
+color:#BDC1C1;
+text-decoration:none;
+}
+div.homebox a:hover {
+color:#762c2c;
+text-decoration:underline;
+}
+/* This sub-group of styles provides the css styles used by the Javascript that if Javascript is available overrides the above settings to provide a richer functionality */
+div.homebox a.homePageLongTextOver {
+color:#31664A;
+text-decoration:none;
+}
+div.homebox a.homePageLongTextOver:hover {
+color:#31664A;
+text-decoration:none;
+}
+div.homebox a.homeBoxMoreOver {
+color:#762c2c;
+text-decoration:none;
+}
+div.homebox a.homeBoxMoreOver:hover {
+color:#762c2c;
+text-decoration:underline;
+}
+
+/* This group of styles defines the footer and the below footer content */
+div.footerDIV {
+width:100%;
+height:27px;
+background-color:#C5E0D4;
+margin:0;
+padding:0px;
+text-align:left;
+z-index:60;
+border-top:1px solid white;
+border-bottom:3px solid white;
+}
+div.footerDIV a {
+color:#31664A;
+}
+div.footerDIV a:hover {
+color:#632E2E;
+}
+.footerGraphic {
+position:relative;
+width:9px;
+}
+.footerGraphic img {
+display:block;
+}
+.footerText {
+color:#31664A;
+font-size:0.72em;
+padding:6px 13px 0px 13px;
+font-family:Arial, Helvetica, sans-serif;
+}
+.extraMenu a {
+color:white;
+margin-left:5px;
+margin-right:7px;
+}
+.extraMenu a:hover {
+color:#31664A;
+}
+.extraMenu {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.7em;
+text-align:left;
+margin:4px 0px 8px 9px;
+}
+
+/*Styles for the events calendar*/
+div.calendar p.eventTitle {
+font-family: "Times New Roman", Times, serif;
+margin-bottom:4px;
+margin-top:12px;
+margin-left:0px;
+font-size:1.2em;
+padding-bottom:0;
+}
+div.calendar p {
+font-family:Arial, Helvetica, sans-serif;
+margin-bottom:6px;
+padding-bottom:0;
+margin-top:0;
+margin-left:0px;
+padding-top:0;
+}
+div.calendar span.leader {
+font-weight:normal;
+}
+div.calendar img {
+margin-right:4px;
+vertical-align:bottom;
+}
+.calendarLabel{
+font-family: "Times New Roman", Times, serif;
+font-weight:bold;
+font-size:1.3em;
+}
+.calendarLabelWarning{
+font-family: "Times New Roman", Times, serif;
+font-weight:bold;
+color:red;
+font-size:1.3em;
+}
+.calendarDataWarning{
+color:red;
+}
+div.calendar p.journalByline {
+font-family: Arial, Helvetica, sans-serif;
+font-style:italic;
+margin-bottom:4px;
+margin-top:8px;
+margin-left:0px;
+font-size:0.8em;
+padding-bottom:0;
+}
+.backLink {
+position:relative;
+float:right;
+font-family: "Times New Roman", Times, serif;
+font-size: 0.8em;
+text-align:right;
+width:300px;
+margin:18px 12px 0 0;
+font-weight:bold;
+}
+.editLink {
+position:relative;
+float:right;
+font-family: "Times New Roman", Times, serif;
+font-size: 0.9em;
+text-align:right;
+width:100px;
+margin-right:12px;
+font-weight:bold;
+}
+.dateRight {
+position:relative;
+float:right;
+}
+.dataTitle {
+font-weight:bold;
+}
+.dataTitleRED {
+font-weight:bold;
+color:red;
+}
+p.errortext {
+font-size:1.1em;
+font-weight:bold;
+color:#FF0000;
+padding: 0px 12px;
+}
+li.errortext {
+font-family:Arial, Helvetica, sans-serif;
+color:#FF0000;
+padding: 0px 12px;
+}
+p.errortextsmall {
+font-size:0.8em;
+font-weight:bold;
+color:#FF0000;
+padding: 0px 8px;
+}
+li.errortextsmall {
+font-size:0.8em;
+font-family:Arial, Helvetica, sans-serif;
+color:#FF0000;
+padding: 0px 8px;
+}
+div#confirmation{
+clear:right;
+}
+
+/*Styles for the board list and other similar tables*/
+table.displaytable {
+border-collapse:collapse;
+border:none;
+border-spacing:6px;
+width:765px;
+margin-left:0;
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+margin:auto;
+color:#274389;
+}
+table.displaytable th {
+border-style:none;
+padding:0;
+vertical-align:top;
+}
+table.displaytable td {
+padding:7px 0 7px 0;
+vertical-align:top;
+border-style:none;
+border-bottom:1px solid white;
+}
+table.displaytable p{
+font-size:0.9em;
+margin:0;
+padding:0;
+text-indent: -2em; 
+margin-left: 2em;
+}
+span.tableLeader{
+font-weight:bold;
+}
+/*Styles for the Management Area*/
+p.manageMenu {
+font-family:Arial, Helvetica, sans-serif;
+font-size:1em;
+font-weight:bold;
+margin-top:0;
+margin-bottom:0;
+}
+p.manageMenu a {
+text-decoration:none;
+color:#274389;
+}
+p.manageMenu a:hover {
+text-decoration:underline;
+color:#35725C;
+}
+p.manageMenu img{
+margin:0 12px 2px 0
+}
+div.sep {
+margin:0px;
+color:#83A4BB;
+width:760px;
+clear:both;
+}
+div.calSep {
+margin:0 0 0 5px;
+color:#83A4BB;
+width:770px;
+clear:both;
+}
+/*Container for the back and add new options above the data blocks in the management area*/
+div.manageoptions {
+font-size: 0.8em;
+margin-right:17px;
+margin-top:24px;
+float:right;
+width:250px;
+}
+/*Container for the data display block in the management area */
+div.managedata {
+clear:both;
+margin:9px;
+/*override for IE only*/
+* margin:0px;
+}
+div.managedataWithBorderAndBackground {
+border-style:solid;
+border-width:1px;
+border-color:#000000;
+background-color:#c5e0d4;
+border-spacing:6px;
+width:734px;
+margin:12px 8px;
+padding:12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.75em;
+text-align:left;}
+/*Container for the add new link above the data blocks in the management area*/
+div.addnew {
+float:right;
+width:auto;
+text-align:right;
+padding-bottom:10px;
+* padding-bottom:0px;
+}
+/*Container for the back link above the data blocks in the management area*/
+div.back {
+float:right;
+clear:right;
+width:auto;
+padding-bottom:10px;
+* padding-bottom:0px;
+}
+div.back img{
+border:none;
+}
+.newsControls {
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+margin:0px 0px 12px 12px;
+width:175px;
+display:inline;
+position:absolute;
+right:419px;
+}
+.newsControls img {
+vertical-align:text-bottom;
+}
+.pressControls {
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+margin:0px 0px 0px 12px;
+width:130px;
+float:right;
+clear:right;
+}
+.pressControls img {
+vertical-align:text-bottom;
+}
+.galleryControls {
+background-color:#E2EDED;
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+margin:0px;
+padding-left:3px;
+width:140px;
+float:right;
+clear:right;
+}
+.galleryControlsUp {
+background-color:#E2EDED;
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+margin:0px;
+padding:0 12px 0 3px;
+width:70px;
+float:right;
+}
+.galleryControlsDown {
+background-color:#E2EDED;
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+margin:0px;
+padding:0 12px 0 3px;
+width:80px;
+float:right;
+}
+.galleryControls img {
+vertical-align:text-bottom;
+}
+.leaderList{
+background-image:url("../graphics/leader.gif");
+background-repeat:repeat-x;
+}
+.beforeLeader{
+padding-right:3px;
+background-color:#E2EDED;
+}
+.YesNoOptions {
+display:inline;
+position:absolute;
+}
+.DeleteOptions {
+display:inline;
+}
+.OKButton {
+position:absolute;
+margin-left:12px;
+}
+.NoButton {
+position:relative;
+vertical-align:top;
+margin-left:80px;
+}
+table.datatable {
+border-collapse:collapse;
+border-style:solid;
+border-width:1px;
+border-color:#000000;
+border-spacing:6px;
+width:760px;
+margin-left:0;
+margin-right:12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.75em;
+text-align:left;
+}
+table.datatable th {
+border-style:none;
+padding:7px;
+}
+table.datatable td {
+border-style:none;
+padding:7px;
+}
+table.subdatatable {
+border-collapse:collapse;
+border-style:solid;
+border-width:1px;
+border-color:#000000;
+border-spacing:6px;
+width:100%;
+margin-left:0;
+margin-right:12px;
+margin-top:4px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:1em;
+text-align:left;
+}
+table.subdatatable th {
+border-style:none;
+padding:7px;
+}
+table.subdatatable td {
+border-style:none;
+padding:7px;
+}
+table.compactDataTable {
+border-collapse:collapse;
+border:none;
+border-spacing:1px;
+width:auto;
+margin-left:0;
+margin-right:12px;
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.75em;
+text-align:left;
+}
+table.compactDataTable th {
+border-style:none;
+padding:4px 0 4px 9px;
+}
+table.compactDataTable td {
+border-style:none;
+padding:4px 0 4px 9px;
+}
+#memButton{
+background-color: #f88d2f;
+border-color:#5c3401;
+border-width:2px;
+border-radius: 13px;
+height: 34px;
+width: 100px;
+font-weight:bold;
+padding-bottom:2px;
+cursor:pointer;
+}
+.tablehead {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+vertical-align:baseline;
+}
+.dataLabel {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+color:#000000;
+}
+.dataLabelError {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+vertical-align:baseline;
+color:#FF0000;
+}
+.formComment {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:normal;
+vertical-align:baseline;
+color:#000000;
+}
+table#memtable {
+border-collapse: collapse;
+border-spacing: 6px;
+font-family: Arial,Helvetica,sans-serif;
+font-size: 1.1em;
+width:100%;
+border:2px solid black;	
+}
+table#memtable td {
+border:1px solid black;	
+}
+table#memtable td.memDesc{
+border-right:2px solid black;	
+}
+/*These classes are for the photograph management form*/
+.photoBlock {
+width:756px;
+margin:12px 0;
+}
+.photoBlockContainer {
+width:756px;
+text-align:center;
+margin:18px auto 0 auto;
+}
+.photoLeft{
+float:left;
+}
+.photoLeft img{
+border:1px black solid;
+}
+.photoFullWidth{
+clear:both;
+width:756px;
+margin:0;
+}
+.photoFullWidth img{
+border:1px black solid;
+}
+.photoText {
+background-color:#c5e0d4;
+text-align:left;
+margin:0px 0px 0px 12px;
+float:right;
+}
+.photoTextWideImage {
+background-color:#c5e0d4;
+text-align:left;
+margin:0;
+float:left;
+width:758px;
+}
+p.photoTitle {
+font-family:Geneva, Arial, Helvetica, sans-serif;
+font-size:1.0em;
+font-weight:bold;
+margin:0px 0px 0px 0px;
+padding:8px 0px 0px 8px;
+}
+p.photoCredit {
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.70em;
+margin-top:0px;
+margin-bottom:0px;
+padding-top:0;
+padding-bottom:0;
+}
+p.photoDate{
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.7em;
+margin:0px 0px 12px 0px;
+padding-top:0;
+padding-bottom:0;
+}
+p.photoDescription{
+font-family: Arial, Helvetica, sans-serif;
+font-size:0.85em;
+}
+.photoControls {
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+padding-top:12px;
+margin:0px 0px 12px 12px;
+}
+.photoControls img {
+vertical-align:text-bottom;
+}
+.photoControlsRight {
+float:right;
+text-align:right;
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+padding-top:12px;
+margin:0px 12px 12px 0;
+width:169px;
+}
+.photoControlsRight img {
+vertical-align:text-bottom;
+}
+.photoGrouphead {
+font-family:Geneva, Arial, Helvetica, sans-serif;
+padding-top:16px;
+* padding-top:10px;
+margin:0px 12px;
+clear:both;
+}
+.photoGalleryLabel {
+background-color:#c5e0d4;
+text-align:left;
+margin:0 auto 0 auto;
+width:758px;
+}
+.thumbnail {
+float:left;
+margin:12px 12px 0 8px;
+height:250px;
+}
+.thumbnail img{
+border:1px black solid;
+}
+.thumbnail p {
+margin:6px 0 0 0;
+padding:0;
+font-size:1.0em;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+.thumbnail p.individualPhoto {
+margin:4px 0 0 0;
+padding:0;
+font-size:0.9em;
+font-family:Georgia, "Times New Roman", Times, serif;
+}
+.thumbnail a {
+color:#762c2c;
+text-decoration:none;
+}
+.thumbnail a:hover {
+color:#762c2c;
+text-decoration:underline;
+}
+.thumbnail a.overImage {
+color:#762c2c;
+text-decoration:underline;
+}
+div.photoContainer {
+width:602px;
+margin:auto;
+position:relative;
+background-color:#333333;
+}
+div.photoGalleryContainer {
+width:602px;
+margin:auto;
+margin-top:6px;
+position:relative;
+}
+div.overlay{
+background-image:url("../graphics/gray.png");
+background-repeat:repeat;
+height:36px;
+position:absolute;
+width:100%;
+left:0;
+bottom:0;
+z-index:65;
+visibility:inherit;
+}
+div.overlay img{
+border:none;
+margin-bottom:5px;
+}
+div.ctlBar {
+background-image:url("../graphics/photoControlBack.gif");
+background-repeat:repeat-x;
+height:10px;
+width:100%;
+position:absolute;
+left:0;
+bottom:0;
+z-index:75;
+text-align:center;
+}
+div.ctlBar img{
+border:none;
+position:absolute;
+top:0;
+}
+div.overlayHidden {
+background-image:url("../graphics/cleargif.gif");
+background-repeat:repeat;
+height:36px;
+position:absolute;
+width:100%;
+left:0;
+bottom:0;
+z-index:30;
+visibility:visible;
+}
+div.overlayHiddenEnd {
+background-image:url("../graphics/cleargif.gif");
+background-repeat:repeat;
+height:39px;
+position:absolute;
+width:10px;
+bottom:0;
+z-index:80;
+visibility:visible;
+}
+div.photoControlText p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.7em;
+color:#f6f6f6;
+margin:0;
+padding:0;
+}
+/*Board Documents Styles*/
+/* **** SEE ALSO STYLES IN DOCUMENT HEAD ON boarddocslist.php */
+div.docIcon{
+float:left;
+width:64px;
+height:64px;
+margin-right:12px;
+clear:left;
+}
+div.docIcon img{
+border:none;
+}
+div#boardDocs h5{
+font-family:Arial, Helvetica, sans-serif;
+font-size:1em;
+color:#274389;
+padding:3px 10px 0px 8px;
+margin-top:0;
+margin-bottom:0;
+font-weight:bold;
+}
+div#boardDocs h5+p{
+padding-top:0;
+margin-top:0;
+margin-bottom:1px;
+}
+div#boardDocs p{
+padding-top:0;
+margin-top:0;
+margin-bottom:5px;
+}
+.docControls {
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+padding-top:2px;
+margin:0px 0px 12px 76px;
+}
+.docControls img {
+vertical-align:text-bottom;
+border:none;
+}
+.docControlsRight {
+float:right;
+text-align:right;
+font-family:"Times New Roman", Times, serif; 
+font-size:0.80em;
+padding-top:2px;
+margin:0px 12px 12px 0;
+width:169px;
+}
+.docControlsRight img {
+vertical-align:text-bottom;
+border:none;
+}
+ul.aqtree3clickable span.docTitle{
+font-family:Arial, Helvetica, sans-serif;
+font-size:15px;;
+color:#274389;
+padding:3px 10px 0px 0;
+margin:0 12px 0 0;
+font-weight:bold;
+}
+
+/*Shopping Page*/
+div.shopBox {
+float:right;
+margin: 12px 12px 10px 8px;
+color:#274389;
+border:1px solid black;
+background-color:#C5E0D4;
+}
+div.shopBox p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+margin:5px;
+padding:0;
+}
+.orderLabel {
+font-family:Arial, Helvetica, sans-serif;
+font-weight:bold;
+margin:0;
+padding:0;
+}
+div.shopLeft {
+width:370px;
+float:left;
+margin:6px 0 6px 10px;
+*margin-left:5px;
+}
+div.shopRight {
+width:370px;
+float:right;
+margin:6px 16px 6px 0;
+*margin-right:8px;
+}
+div.storeItem {
+position:relative;
+min-height:160px;
+border:2px solid white;
+margin:0 0 12px 0;
+}
+div.storeItem img{
+margin:6px 12px 6px 6px;
+float:left;
+}
+div.storeItem h3{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size:1.0em;
+color:#762c2c;
+font-weight:bold;
+/*font-style:italic;*/
+margin:10px 8px 8px 8px;
+}
+div.storeItem p{
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+margin:5px;
+padding:0;
+}
+div.storeItem p.productDescription{
+font-weight:bold;
+}
+div.addToCart {
+float:right;
+margin:0;
+padding:0;
+width:350px;
+text-align:right;
+}
+div.addToCart form{
+margin-right:0px;
+margin-bottom:8px;
+*margin-bottom:0;
+}
+div.addToCart p{
+margin:0 8px 4px 0;
+*margin-bottom:0;
+}
+/*Receipt*/
+div#totalbox{
+border-top:3px double #274389;
+}
+/*Staff Photos*/
+img.staffPhoto {
+border:none;
+border-bottom:1px solid #20362c;
+float:left;
+margin:0 0 6px 0;
+}
+div.staffPhotoDiv {
+background-color:#C5E0D4;
+width:200px;
+float:left;
+margin:8px 12px 3px 10px;
+border:1px solid #20362c;
+}
+div.staffPhotoDiv p{
+font-size:0.7em;
+font-family:Arial, Helvetica, sans-serif;
+margin:3px;
+padding:3px;
+}
+p.addressLead {
+margin:2px 12px 2px 7px;;
+padding:0;
+font-size:0.9em;
+font-weight:bold;
+}
+div.addressContent{
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.9em;
+color:#274389;
+width:380px;
+float:right;
+margin:0 320px 10px 12px;
+_margin-right:160px;
+}
+div.addressContent p{
+margin:2px 12px 2px 0;
+padding:0;
+font-size:0.9em;
+}
+/*River Bucks*/
+div.riverBucksPrimary{
+width:100%;
+margin:0;
+padding:0;
+}
+div.riverBucksPrimary p{
+font-size:1.0em;
+margin:3px 0;
+}
+span.riverBucksLead{
+font-weight:bold;
+margin-left:10px;
+color:black;
+}
+span.riverBucksLeadFirst{
+font-weight:bold;
+margin-left:0;
+color:black;
+}
+table.transTable td{
+color:#274389;
+padding-left:12px;
+}
+p.riverBucksEmail {
+color:black;
+font-family:"Courier New", Courier, monospace;
+margin:0;
+padding:0;
+}
+/*Checkout Page*/
+table.checkoutTable {
+width:500px;
+margin-left:50px;
+margin-top:12px;
+border-collapse:collapse;
+}
+table.checkoutTable td {
+border:1px solid black;
+padding:2px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+table.checkoutTable input {
+padding:1px;
+}
+table.checkoutTable td.borderless {
+border:none;
+border-left:1px solid black;
+background-color:#e2eded;
+text-align:center;
+}
+ul.shipping li {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+margin:0 0 0 15px;
+}
+ul.teaching li {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+margin:0 0 3px 0;
+list-style:square;
+}
+ol.teaching li {
+font-family:Arial, Helvetica, sans-serif;
+font-size:0.8em;
+margin:0 0 3px 0;
+}
+p.teachingPriceBefore {
+margin-bottom:2px;
+padding-bottom:0;
+}
+p.teachingPrice {
+margin-top:2px;
+}
+span.teachingHead {
+font-size:1.1em;
+font-weight:bold;
+}

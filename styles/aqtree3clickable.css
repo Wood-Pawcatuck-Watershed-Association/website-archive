@@ -1,0 +1,50 @@
+/* This is the CSS code to run the expandable tree for the resource library */
+
+/*Turn off list bullets */
+ul.aqtree3clickable li { list-style:none; line-height:1.7em; }
+
+ul.aqtree3clickable, ul.aqtree3clickable ul, ul.aqtree3clickable li {
+  margin: 0 0 0 5px; padding: 0;
+}
+
+/* This controls the indent for each sublist */
+ul.aqtree3clickable ul {
+  padding-left: 40px;
+}
+
+/* Provide space for our own "bullet" inside the link */
+ul.aqtree3clickable li a { padding-left: 20px; cursor:pointer;}
+
+/* Show "bullets" in the links, depending on the class of the
+   LI that the link's in */
+ul.aqtree3clickable li.aq3open a {
+    background: url("../graphics/minus.gif") center left no-repeat;
+	font-size:1.1em;
+	color:#274389;
+}
+ul.aqtree3clickable li.aq3closed a {
+    background: url("../graphics/plus.gif") center left no-repeat;
+	font-size:1.1em;
+	color:#274389;
+}
+ul.aqtree3clickable li.aq3bullet {
+/*list-style-image:url("../graphics/bullet.gif");*/
+line-height:1.4em;
+margin-bottom:3px;
+font-size:0.9em;
+font-weight:normal;
+}
+ul.aqtree3clickable li.aq3bullet a {
+	padding-left: 0px;
+	background:none;
+}
+
+/*Hide the plus minus controls when the URL is inside a control div as on the newsletters management page*/
+ul.aqtree3clickable div.newsControls a{
+	background:none;
+	padding-left:2px;
+}
+
+/* Actually show and hide sublists */
+ul.aqtree3clickable li.aq3open ul { display: block; }
+ul.aqtree3clickable li.aq3closed ul { display: none; }
